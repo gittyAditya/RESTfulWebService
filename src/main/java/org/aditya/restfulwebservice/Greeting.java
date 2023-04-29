@@ -1,2 +1,3 @@
-package org.aditya.restfulwebservice;public class Greeting {
-}
+package org.aditya.restfulwebservice;
+
+public record Greeting(long id, String content) { }
